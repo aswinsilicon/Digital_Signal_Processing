@@ -1,0 +1,14 @@
+Launch CCS Studio
+Open a new CCS Project
+In the new window, Set Target as C674x Floating Point DSP, and choose TMS320C6748 from the right drop down menu
+Set connection as Texas Instruments XDS100v3 USB Debug Probe
+Verify the connection. (YOu should see a message in the end of the log file saying "JTAG successful/successfully")
+Type your Project Name
+Click on Finish
+Write your C code
+Click on Project Tab above, and select Build Project. 
+After the build is successful, Click on Run Tab and select Debug.
+After the debugging is successfully initiated, click on Resume button available in the above command buttons
+Find a user interface window opening somewhere (in case your code needs inputs to get to your final answer)
+
+That's it !
