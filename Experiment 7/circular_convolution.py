@@ -1,3 +1,4 @@
+import numpy as np
 from numpy.fft import fft, ifft
 def circular_convolution(x, h):
     N = len(x)
