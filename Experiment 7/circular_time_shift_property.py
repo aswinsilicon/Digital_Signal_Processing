@@ -1,3 +1,5 @@
+import numpy as np
+
 n0 = 12 #delaying y_in by 12
 y_in_shifted = np.roll(y_in, n0)
 Y_shifted_dft = fft(y_in_shifted)
